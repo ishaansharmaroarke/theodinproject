@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
 
 * {
     margin: 0;
@@ -106,4 +106,68 @@
     border: 4px solid #3882F6;
     border-radius: 10px;
     margin-bottom: 10px;
+}
+
+
+/* Quotes section */
+
+.testimonial {
+    background: #E5E7EB;
+    padding: 100px 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial .quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937
+}
+
+.testimonial .quote-author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cta {
+    background: #3882F6;
+    margin: 50px 300px;
+    color: #F9FAF8;
+    padding: 40px;
+    display: flex;
+    /* flex-direction: column; */
+    border-radius: 8px;
+
+    justify-content: space-around;
+}
+
+.cta .cta-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cta .cta-text {
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+.cta .cta-btn {
+    color: #F9FAF8;
+    background: #3882F6;
+    border: 1px solid #F9FAF8;
+    align-self: flex-end;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+
+.footer {
+    background: #1F2937;
+}
+
+.footer .footer-text {
+    color: #E5E7EB;
+    padding: 25px;
+    text-align: center;
 }
